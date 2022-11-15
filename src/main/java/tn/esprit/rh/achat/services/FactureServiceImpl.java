@@ -37,7 +37,7 @@ public class FactureServiceImpl implements IFactureService {
 		}
 		return factures;
 	}
-
+ /*test modif git*/
 	
 	public Facture addFacture(Facture f) {
 		return factureRepository.save(f);
