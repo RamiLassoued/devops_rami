@@ -1,5 +1,7 @@
 package tn.esprit.rh.achat.services;
 
+import lombok.Getter;
+import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,6 +18,9 @@ import java.util.List;
 
 @Service
 @Slf4j
+@Getter
+@Setter
+
 public class FournisseurServiceImpl implements IFournisseurService {
 
 	@Autowired

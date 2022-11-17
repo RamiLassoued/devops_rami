@@ -24,6 +24,10 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Produit implements Serializable {
 
+	public Produit(long l, String string, String string2, int i, Object object, Object object2, Object object3,
+			Object object4, Object object5) {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * 
 	 */
@@ -47,6 +51,14 @@ public class Produit implements Serializable {
 	@ManyToOne
 	@JsonIgnore
 	private CategorieProduit categorieProduit;
+	public Short getCodeProduit() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public int getPrix() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 
 
